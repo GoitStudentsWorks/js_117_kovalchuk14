@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/js_117_kovalchuk14/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" />
+  <script type="module" crossorigin src="/js_117_kovalchuk14/index.js"></script>
+  <link rel="modulepreload" crossorigin href="/js_117_kovalchuk14/assets/vendor-Bwnwe6pH.js">
+  <link rel="stylesheet" crossorigin href="/js_117_kovalchuk14/assets/vendor-Ctaf7TWq.css">
+  <link rel="stylesheet" crossorigin href="/js_117_kovalchuk14/assets/index-DNfQDAez.css">
+</head>
+
+<body>
+  <header class="header">
+  <div class="container header-container">
+    <a href="#" class="logo-header" aria-label="Logo">
+      <svg width="83" height="21">
+        <use href="/js_117_kovalchuk14/assets/logo-SENXoEhg.svg#icon-logo"></use>
+      </svg>
+    </a>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#books" class="nav-link">Books</a></li>
+        <li><a href="#feedbacks" class="nav-link">Feedbacks</a></li>
+        <li><a href="#events" class="nav-link">Events</a></li>
+        <li><a href="#location" class="nav-link">Location</a></li>
+      </ul>
+    </nav>
+
+    <button class="menu-btn" id="open-menu" aria-label="Відкрити меню">
+      <svg class="icon" width="24" height="24">
+        <use href="/js_117_kovalchuk14/assets/sprite-By3KBZBp.svg#icon-menu"></use>
+      </svg>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="menu-btn-container">
+      <a href="#" class="logo-header" aria-label="Logo">
+        <svg width="83" height="21">
+          <use href="/js_117_kovalchuk14/assets/logo-SENXoEhg.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <button class="close-btn" id="close-menu" aria-label="Закрити меню">
+        <svg class="icon" width="24" height="24">
+          <use href="/js_117_kovalchuk14/assets/sprite-By3KBZBp.svg#icon-exit"></use>
+        </svg>
+      </button>
+    </div>
+    <nav>
+      <ul class="mobile-nav-list">
+        <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+        <li><a href="#books" class="mobile-nav-link">Books</a></li>
+        <li><a href="#feedbacks" class="mobile-nav-link">Feedbacks</a></li>
+        <li><a href="#events" class="mobile-nav-link">Events</a></li>
+        <li><a href="#location" class="mobile-nav-link">Location</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <section class="hero" id="hero">
+    <div class="container hero-container">
+        <!-- Swiper-контейнер -->
+        <div class="swiper hero-slider">
+            <ul class="swiper-wrapper">
+                <!-- Слайд 1 -->
+                <li class="swiper-slide hero-swiper-slide">
+                    <div class="hero-slide-item">
+                        <img class="hero-image" src="/js_117_kovalchuk14/assets/banner3(1x)-D5wk22u-.webp"
+                            srcset="/js_117_kovalchuk14/assets/banner3(1x)-D5wk22u-.webp 1x, /js_117_kovalchuk14/assets/banner3(2x)-C3KTUgn1.webp 2x"
+                            alt="Open book and cup of coffee" />
+                        <div class="hero-overlay">
+                            <p class="hero-text">Get 10% off your first order</p>
+                            <button class="hero-btn" type="button" data-scroll="#books">Shop Now!</button>
+                        </div>
+                    </div>
+                </li>
+                <!-- Слайд 2 -->
+                <li class="swiper-slide hero-swiper-slide">
+                    <div class="hero-slide-item">
+                        <img class="hero-image" src="/js_117_kovalchuk14/assets/banner5(1x)-B6UrOvQL.webp"
+                            srcset="/js_117_kovalchuk14/assets/banner5(1x)-B6UrOvQL.webp 1x, /js_117_kovalchuk14/assets/banner5(2x)-ss-oYonu.webp 2x"
+                            alt="Open book with glasses" />
+                        <div class="hero-overlay">
+                            <p class="hero-text">Save 15% on some books</p>
+                            <button class="hero-btn" type="button" data-scroll="#books">Shop Now!</button>
+                        </div>
+                    </div>
+                </li>
+                <!-- Слайд 3 -->
+                <li class="swiper-slide hero-swiper-slide">
+                    <div class="hero-slide-item">
+                        <img class="hero-image" src="/js_117_kovalchuk14/assets/banner6(1x)-B9WrvIYI.webp"
+                            srcset="/js_117_kovalchuk14/assets/banner6(1x)-B9WrvIYI.webp 1x, /js_117_kovalchuk14/assets/banner6(2x)-BAlwnm0V.webp 2x"
+                            alt="A lot of books" />
+                        <div class="hero-overlay">
+                            <p class="hero-text">Summer Sale!
+                                Up to -40% discounts</p>
+                            <button class="hero-btn" type="button" data-scroll="#books">Shop Now!</button>
+                        </div>
+                    </div>
+                </li>
+                <!-- Слайд 4 -->
+                <li class="swiper-slide hero-swiper-slide">
+                    <div class="hero-slide-item">
+                        <img class="hero-image" src="/js_117_kovalchuk14/assets/banner7(1x)-BSaK5SD7.webp"
+                            srcset="/js_117_kovalchuk14/assets/banner7(1x)-BSaK5SD7.webp 1x, /js_117_kovalchuk14/assets/banner7(2x)-DcXj5Pyj.webp 2x"
+                            alt="Flowers in vase" />
+                        <div class="hero-overlay">
+                            <p class="hero-text">Last chance to buy our spring bestsellers</p>
+                            <button class="hero-btn" type="button" data-scroll="#books">Shop Now!</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!-- Заголовок та навігація -->
+            <div class="hero-title-nav">
+                <div class="hero-nav">
+                    <button class="hero-nav-btn" id="PrevSlide">
+                        <svg class="icon" width="24" height="24">>
+                            <use href="/js_117_kovalchuk14/assets/sprite-By3KBZBp.svg#icon-left-type-two"></use>
+                        </svg>
+                    </button>
+                    <button class="hero-nav-btn" id="NextSlide">
+                        <svg class="icon" width="24" height="24">>
+                            <use href="/js_117_kovalchuk14/assets/sprite-By3KBZBp.svg#icon-right-type-two"></use>
+                        </svg>
+                    </button>
+                </div>
+                <h1 class="hero-title">Discover Your Next Great Read Today!</h1>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="book-section" id="books">
+    <div class="container book-container">
+        <h2 class="visually-hidden">Trending books</h2>
+        <div class="book-interface">
+            <div class="book-counter-container">
+                <h3 class="book-section-title">Books</h3>
+                <div class="book-counter">Showing ** of ***</div>
+            </div>
+            <div class="book-categories-list-container">
+                <div class="book-select-menu">
+                    Categories
+                </div>
+                <svg class="book-menu-icon" width="24" height="24">
+                    <use href="/js_117_kovalchuk14/assets/sprite-By3KBZBp.svg#icon-down-type-one"></use>
+                </svg>
+                <div class="book-categories-list-wrapper">
+                    <ul class="book-categories-list">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="book-list-container">
+            <ul class="book-list">
+            </ul>
+            <button class="modal-btn book-button-show-more">Show More</button>
+            <span class="loader"></span>
+        </div>
+    </div>
+</section>
+    <section class="feedbacks" id="feedbacks">
+  <div class="container">
+    <div class="info-container">
+      <h2 class="section-title title-feedbacks">Customer Feedbacks</h2>
+      <p class="info-text">See what our readers are saying about us!</p>
+    </div>
+
+    <div class="swiper feedbackSwiper">
+      <ul class="swiper-wrapper"></ul>
+    </div>
+
+    <!-- buttons -->
+    <div class="feedback-buttons">
+      <div class="feedback-controls">
+        <button class="control-btn" data-index="0"></button>
+        <button class="control-btn" data-index="1"></button>
+        <button class="control-btn" data-index="2"></button>
+        <button class="control-btn" data-index="3"></button>
+      </div>
+
+      <div class="right-buttons-container">
+        <button class="swipe-btn sw" id="feedbackPrev">
+          <svg class="icon" width="24" height="24">
+            <use href="/js_117_kovalchuk14/assets/sprite-By3KBZBp.svg#icon-left-type-two"></use>
+          </svg>
+        </button>
+        <button class="swipe-btn sw" id="feedbackNext">
+          <svg class="icon" width="24" height="24">
+            <use href="/js_117_kovalchuk14/assets/sprite-By3KBZBp.svg#icon-right-type-two"></use>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <section class="events-section container" id="events">
+  <p class="events-top">Events</p>
+  <h2 class="events-subtitle">Upcoming Events at Booksy</h2>
+  <p class="events-descr">
+    Discover readings, workshops, and bookish gatherings — online and offline.
+    Everyone’s welcome.
+  </p>
+  <div class="events-box swiper">
+    <ul class="events-list swiper-wrapper">
+      <li class="swiper-slide events-swiper-slide">
+        <div class="events-item">
+          <div class="events-card-content">
+            <picture>
+              <source srcset="/js_117_kovalchuk14/assets/a-dext-1x-C5ra1VQz.jpg 1x, /js_117_kovalchuk14/assets/a-dext-2x-DdFhOZNC.jpg 2x" media="(min-width: 1440px)" />
+              <source srcset="/js_117_kovalchuk14/assets/a-mob-1x-CzNpW3o-.jpg 1x, /js_117_kovalchuk14/assets/a-mob-2x-bledDea_.jpg 2x" media="(min-width: 768px)" />
+
+              <source srcset="/js_117_kovalchuk14/assets/a-mob-1x-CzNpW3o-.jpg 1x, /js_117_kovalchuk14/assets/a-mob-2x-bledDea_.jpg 2x" media="(max-width: 767px)" />
+
+              <img src="/js_117_kovalchuk14/assets/a-mob-1x-CzNpW3o-.jpg" alt="Cozy Book Club — “The Midnight Library”" class="events-photo"
+                width="342" height="277" />
+            </picture>
+
+            <h3 class="events-desc-title">
+              Cozy Book Club — “The Midnight Library”
+            </h3>
+            <p class="events-data">In-store | June 5, 6:30 PM</p>
+            <p class="events-text">
+              Join us for an evening of tea, thoughtful conversation, and shared
+              reflections as we dive into Matt Haig’s bestseller.
+            </p>
+          </div>
+          <div class="events-btn-wrapper">
+            <button type="button" class="events-btn" id="library" data-event="Cozy Book Club — “The Midnight Library”">
+              Register
+              <svg width="7" height="11" class="icon">
+                <use xlink:href="/js_117_kovalchuk14/assets/symbol-defs-CiH1MBSj.svg#icon-icon"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="swiper-slide events-swiper-slide">
+        <div class="events-item">
+          <div class="events-card-content">
+            <picture>
+              <source srcset="/js_117_kovalchuk14/assets/b-dext-1x-D1Yr30gr.jpg 1x, /js_117_kovalchuk14/assets/b-dext-2x-DrwYKEC9.jpg 2x" media="(min-width: 1440px)" />
+
+              <source srcset="/js_117_kovalchuk14/assets/b-tab-1x-BSS3vt7_.jpg 1x, /js_117_kovalchuk14/assets/b-tab-2x-CRVgYieU.jpg 2x" media="(min-width: 768px)" />
+
+              <source srcset="/js_117_kovalchuk14/assets/b-tab-1x-BSS3vt7_.jpg 1x, /js_117_kovalchuk14/assets/b-tab-2x-CRVgYieU.jpg 2x" media="(max-width: 767px)" />
+
+              <img src="/js_117_kovalchuk14/assets/b-tab-1x-BSS3vt7_.jpg" alt="Cozy Book Club — “The Midnight Library”" class="events-photo"
+                width="342" height="277" />
+            </picture>
+
+            <h3 class="events-desc-title">Book Cover Design Workshop</h3>
+            <p class="events-data">Online | June 12, 7:00 PM</p>
+            <p class="events-text">
+              A hands-on session for aspiring designers and curious readers.
+              Learn what makes a cover stand out — from concept to print.
+            </p>
+          </div>
+          <div class="events-btn-wrapper">
+            <button type="button" class="events-btn" id="workshop" data-event="Book Cover Design Workshop">
+              Register
+              <svg width="7" height="11" class="icon">
+                <use xlink:href="/js_117_kovalchuk14/assets/symbol-defs-CiH1MBSj.svg#icon-icon"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="swiper-slide events-swiper-slide">
+        <div class="events-item">
+          <div class="events-card-content">
+            <picture>
+              <source srcset="/js_117_kovalchuk14/assets/c-dext-1x-DdipQl4b.jpg 1x, /js_117_kovalchuk14/assets/c-dext-2x-Ed-3DWf7.jpg 2x" media="(min-width: 1440px)" />
+
+              <source srcset="/js_117_kovalchuk14/assets/c-dext-1x-DdipQl4b.jpg 1x, /js_117_kovalchuk14/assets/c-dext-2x-Ed-3DWf7.jpg 2x" media="(min-width: 768px)" />
+
+              <source srcset="/js_117_kovalchuk14/assets/c-dext-1x-DdipQl4b.jpg 1x, /js_117_kovalchuk14/assets/c-dext-2x-Ed-3DWf7.jpg 2x" media="(max-width: 767px)" />
+
+              <img src="/js_117_kovalchuk14/assets/c-dext-1x-DdipQl4b.jpg" alt="Cozy Book Club — “The Midnight Library”" class="events-photo"
+                width="342" height="277" />
+            </picture>
+            <h3 class="events-desc-title">Children’s Story Hour</h3>
+            <p class="events-data">In-store | June 15, 11:00 AM</p>
+            <p class="events-text">
+              A magical morning of stories, games, and imagination for our
+              youngest book lovers (ages 4–8).
+            </p>
+          </div>
+          <div class="events-btn-wrapper">
+            <button type="button" class="events-btn" id="children" data-event="Children’s Story Hour">
+              Register
+
+              <svg width="7" height="11" class="icon">
+                <use xlink:href="/js_117_kovalchuk14/assets/symbol-defs-CiH1MBSj.svg#icon-icon"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div class="events-nav">
+      <div class="swiper-pagination"></div>
+      <div class="events-buttons">
+        <div class="swiper-button-prev">
+          <svg>
+            <use xlink:href="/js_117_kovalchuk14/assets/symbol-defs-CiH1MBSj.svg#icon-icon-3"></use>
+          </svg>
+        </div>
+        <div class="swiper-button-next">
+          <svg>
+            <use xlink:href="/js_117_kovalchuk14/assets/symbol-defs-CiH1MBSj.svg#icon-icon-2"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="article-section">
+  <div class="container article-container">
+    <div class="article-description-container">
+      <h2 class="article-title">
+        Welcome to Booksy – your cozy corner for handpicked reads
+      </h2>
+      <div class="article-description">
+        We believe books are more than just stories — they’re companions,
+        doorways, and memories. Whether you’re chasing adventures or quiet
+        moments, we’re here to help you find your next favorite book.
+      </div>
+    </div>
+    <div class="article-image-container">
+      <img src="/js_117_kovalchuk14/assets/article_x1-uz9uxk3r.webp"
+      srcset="/js_117_kovalchuk14/assets/article_x1-uz9uxk3r.webp 1x, /js_117_kovalchuk14/assets/article_x2-D62Iu5vw.webp 2x" alt="" />
+    </div>
+  </div>
+</section>
+    <div class="container" id="location">
+  <div class="container-location">
+    <div class="nav-container">
+      <div class="text-location">
+        <p class="name-loc">location</p>
+        <h2 class="tite-location">How to find us</h2>
+        <p class="p-location">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          varius enim in eros elementum tristique.
+        </p>
+      </div>
+      <div>
+        <ul class="nav-list-location">
+          <li class="loc-location">
+            <div>
+              <svg class="location-icon-email" width="24" height="24">
+                <use href="/js_117_kovalchuk14/assets/sprite-By3KBZBp.svg#icon-email"></use>
+              </svg>
+            </div>
+            <div class="nav-content">
+              <h3 class="contact-nav">Email</h3>
+              <a href="mailto:hello@booksy.com" class="nav-li">hello@booksy.com</a>
+            </div>
+          </li>
+          <li class="loc-location">
+            <div>
+              <svg class="location-icon-tel" width="24" height="24">
+                <use href="/js_117_kovalchuk14/assets/sprite-By3KBZBp.svg#icon-phone"></use>
+              </svg>
+            </div>
+            <div class="nav-content">
+              <h3 class="contact-nav">Phone</h3>
+              <a href="tel:+612413043012" class="nav-li">+61 (241) 304-3012</a>
+            </div>
+          </li>
+          <li class="loc-location">
+            <div>
+              <svg class="location-icon-map" width="24" height="24">
+                <use href="/js_117_kovalchuk14/assets/sprite-By3KBZBp.svg#icon-location"></use>
+              </svg>
+            </div>
+            <div class="nav-content">
+              <h3 class="contact-nav">Office</h3>
+              <p class="">123 Books St, Sydney NSW 2000 AU</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="map-location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26497.988658057733!2d151.15746169207225!3d-33.88325123608467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae2a3f0307d3%3A0xcda527941ab9b09a!2sGleebooks!5e0!3m2!1suk!2sua!4v1751714930749!5m2!1suk!2sua"
+        style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        class="map"></iframe>
+    </div>
+  </div>
+</div>
+  </main>
+
+  <footer>
+  <div class="footer-container">
+    <div class="footer container">
+      <div class="footer-content">
+        <div class="footer-left-column">
+          <div class="footer-logo">
+            <a href="#" class="svg-link">
+              <svg class="booksyLogo" width="84" height="36">
+                <use href="/js_117_kovalchuk14/assets/sprite-By3KBZBp.svg#icon-LOGO"></use>
+              </svg>
+            </a>
+          </div>
+
+          <div class="footer-nav">
+            <ul>
+              <li><a href="#hero" class="nav-link home-link"><span class="nav-text">Home</span></a></li>
+              <li><a href="#books" class="nav-link books-link"><span class="nav-text">Books</span></a></li>
+              <li><a href="#feedbacks" class="nav-link feedback-link"><span class="nav-text">Feedback</span></a></li>
+              <li><a href="#location" class="nav-link location-link"><span class="nav-text">Location</span></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-right-column">
+          <h3 class="join-title">Join</h3>
+          <div class="subscription-actions">
+            <form class="subscription-form">
+              <label class="visually-hidden" for="FooterUserEmail">Email:</label>
+              <input type="email" placeholder="Enter your email" class="email-input" required
+                pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" id="FooterUserEmail" />
+              <button type="submit" class="subscribe-button">
+                <span>Sign Up</span>
+              </button>
+            </form>
+            <div class="required-note">
+              <span>* Required field</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-credits">
+        <hr class="divider" />
+        <div class="credits-row">
+          <span>© 2025 Booksy. All rights reserved.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <div class="modal-book">
+    <div class="modal-book__content">
+        <button class="modal-book-close-button">
+        </button>
+        <div class="modal-book-full-info">
+            NOT FOUND
+            <div class="modal-book-button-container">
+                <button class="modal-btn modal-book-cart-button" type="button">Add to Cart</button>
+                <button class="main-btn modal-book-buy-button" type="submit">Buy Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+  <div class="container">
+  <div class="contact-backdrop" id="contact-modal-backdrop">
+    <div class="contact-modal">
+      <button class="contact-close-btn" id="contact-close-modal-btn">
+        <svg class="icon" width="32" height="32">
+          <use href="/js_117_kovalchuk14/assets/sprite-By3KBZBp.svg#icon-exit"></use>
+        </svg>
+      </button>
+      <h2 class="contact-modal-title">Register</h2>
+      <p class="contact-event-title" id="contact-event-title"></p>
+
+      <form class="contact-modal-form" id="contact-register-form">
+        <label>
+          Name*
+          <input type="text" name="name" placeholder="Ann">
+          <span class="error-text">Please fill this field</span>
+        </label>
+        <label>
+          Email*
+          <input type="email" name="email" placeholder="hello@booksy.com">
+          <span class="error-text">Enter a valid email</span>
+        </label>
+        <label>
+          Message
+          <textarea name="message" placeholder="Enter your message..."></textarea>
+          <span class="error-text">Optional</span>
+        </label>
+        <button type="submit" class="modal-btn contact-submit-btn">Register</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
